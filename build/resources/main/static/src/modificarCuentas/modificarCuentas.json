@@ -1,0 +1,44 @@
+[
+    {
+        "imagen":"../../assets/doctor.png",
+        "usuario": "Emily Memije",
+        "cuenta": "Royal",
+        "descripcion": "Psicóloga clínica especializada en terapia cognitivo-conductual, con experiencia en el tratamiento de trastornos de ansiedad y depresión en adolescentes y adultos."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "Cesar Hernández",
+        "cuenta": "Royal",
+        "descripcion": "Nutricionista clínico con enfoque en dietas personalizadas para pacientes con enfermedades crónicas como diabetes y enfermedades cardiovasculares."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "Roberto Venegas",
+        "cuenta": "Premium",
+        "descripcion": "Cardiólogo intervencionista con experiencia en procedimientos como angioplastias y colocación de stents, además de manejo de pacientes con insuficiencia cardíaca."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "David Hernández",
+        "cuenta": "Premium",
+        "descripcion": "Médico general con amplia experiencia en atención primaria, diagnóstico y tratamiento de enfermedades comunes, y promoción de la salud preventiva."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "Oscar Hernández",
+        "cuenta": "Plan básico",
+        "descripcion": "Psiquiatra especializado en trastornos del estado de ánimo y esquizofrenia, con habilidades en terapia farmacológica y psicoterapia."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "Alexis García",
+        "cuenta": "Plan básico",
+        "descripcion": "Pediatra con experiencia en el cuidado integral de niños desde el nacimiento hasta la adolescencia, incluyendo vacunación y manejo de enfermedades infecciosas."
+    },
+    {
+        "imagen": "../../assets/doctor.png",
+        "usuario": "Lizbeth Zarazua",
+        "cuenta": "Plan básico",
+        "descripcion": "Odontóloga general con habilidades en procedimientos de restauración dental, ortodoncia básica y prevención de enfermedades bucales."
+    }
+]

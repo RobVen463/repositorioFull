@@ -1,0 +1,199 @@
+:root {
+    --footer-blue: #1C2B52;
+    --ocean-blue: #296CD1;
+    --dark-gray: #869DA6;
+    --ivory: #EFF0D5;
+    --not-white: #F2F2EB;
+    --green-tea: #BAD895;
+}
+
+
+.logoback {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+#logo--back {
+    display: flex;
+    opacity: 15%;
+    width: 400px;
+}
+
+
+.body--search {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #F2F2EB;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+#profesionales {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+
+
+.category--list {
+    display: flex;
+    max-width: 1500px;
+    border-radius: 20px;
+    background: var(--footer-blue);
+    margin: 50px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.category--list a {
+    text-decoration: none;
+    color: #1C2B52;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.category--list a:hover {
+    background-color:var(--footer-blue);
+    color: white;
+    border: solid white 2px;
+    transition-duration: .3s
+}
+
+.category--list p{
+    margin-top: 15px;
+}
+
+.category--list select {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 2.5rem;
+}
+
+
+.boton--sig button {
+    background-color: white;
+    color: var(--footer-blue);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    margin-bottom: 15px;
+}
+
+.boton--sig button:hover {
+    background-color:var(--footer-blue);
+    color: white;
+    border: solid white 2px;
+    transition-duration: .3s
+}
+
+/*
+button:hover {
+    background-color:var(--footer-blue);
+    color: white;
+    border: solid white 2px;
+    transition-duration: .3s
+}*/
+
+.contenedor-botones2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+margin-left: 50%;
+translate: -50%;
+margin-top: 20px;
+}
+
+
+.category--letter {
+    display: flex;
+    max-width: 2000px;
+    background: #869DA6;
+    margin: 50px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/*Medias Queries*/
+@media (max-width: 740px) {
+    #Container-principal {
+        flex-direction: column;
+    }
+
+    #profesionales {
+        margin-left: 150px;
+    }
+    
+    #info {
+        width: 90%;
+    }
+
+    #info h2,
+    p,
+    li {
+        font-size: small; 
+    }
+    
+    /*modificacion del logo*/
+    #logo--back {
+        display: flex;
+        opacity: 5%;
+        width: 100px;
+    }
+
+    .logoback {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        opacity: 15%;
+    }
+
+    .category--list {
+        display: flex;
+        max-width: 100%;
+        margin: 50px;
+        box-sizing: border-box;
+        font-size: "Merriweather";
+        flex-wrap: wrap;
+        padding-bottom: 12px;
+    }
+    
+    .category--list select {
+        background-color: white;
+        width: 80%;
+        border: none;
+    }
+}
+
+
+@media (max-width: 450px) {
+    #logo--back {
+        display: flex;
+        opacity: 95%;
+        width: 350px;
+    }
+
+    #profesionales {
+        margin-left: 100px;
+    }
+}

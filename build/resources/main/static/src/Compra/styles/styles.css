@@ -1,0 +1,108 @@
+
+@media (max-width: 768px) {
+
+    body {
+    font-size: 16px;
+    }
+}
+.titulo {
+    display: flex;
+    border-radius: 15px;
+    background: #1C2B52;
+    height: 130px;
+    font-family: "Lato";
+    color: #D9D9D9;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+}
+.texto {
+    font-size: 22.5px;
+    margin-top: 10px;
+    color: #D9D9D9;
+}
+
+
+.resumen {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.resument{
+    display: flex;
+    background-color: white;
+    width: 678.637px;
+    margin-top: 50px;
+    min-height: 200px;
+    border-radius: 25px;
+    padding: 35px;
+    font-family: "Lato";
+    font-size: 25px;
+    text-align: justify;
+    color: #1C2B52;
+}
+
+.linea1 {
+    display: flex;
+    height: 5px;
+    width: 640px;
+    background-color: #1C2B52;
+}
+
+#conexioGracias {
+    text-decoration: none;
+}
+
+/* Tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "lato";
+    width: fit-content;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #1C2B52;
+    color: white; 
+
+}
+
+td:last-child {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+
+    #titulo {
+    
+    font-size: 25px;
+    }
+    .titulo{
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    table {
+    font-size: 17px;
+    }
+}
